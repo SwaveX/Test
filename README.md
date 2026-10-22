@@ -66,16 +66,16 @@
   * `double` `method` [ GetRating( ) ]() => `Sqrt( Math.Pow(Likes, 2) / Views )` 
   * override `string` [ ToString( ) ]() when called the output should be:
     * Id
-      * [ PadRight(4) ]()}
+      * [ PadLeft(4) ]()}
     * Title
-      * [ Padleft(15) ]()
+      * [ PadRight(15) ]()
     * ReleasedYear
-      * [ Padleft(8) ]()
+      * [ PadRight(8) ]()
       * inside parenthesis: ex. "(2027)"
     * Genre
-      * [ Padleft(12) ]()
+      * [ PadLeft(12) ]()
     * [ GetRating( ) ]()
-      * [ Padleft(8) ]()
+      * [ PadRight(8) ]()
       * precision: **3 decimal places** 
 
  
