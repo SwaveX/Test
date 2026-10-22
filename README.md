@@ -85,6 +85,7 @@
      * For each Movie input corresponding data   
      * Input `Genre` via integer numbers
 
+
 ## ARM
 
 * ստեղծել Movie.cs կլասսը որը կպարունակի [ֆիլմի համարը, ֆիլմի անունը, տարեթիվը, ֆիլմի ժանրը, դիտումների քանակը, լայքերի քանակը]
@@ -104,3 +105,22 @@
  ***
  
 <br><br>
+
+# Task 4
+## Using in, out, ref, params, and parameters by default values
+
+* Declare `static` `methods` using `modifiers`: (_The exact logic does not matter_)
+  * [A( )]() -- `in`
+  * [B( )]() -- `out`
+  * [C( )]() -- `ref`
+  * [SumValues()]() -- `params`
+
+* Test the behavior in [ Main( ) ]() `method`
+
+
+## ARM
+
+* Ստեղծել static A(), B(), C() մեթոդները, համապատասխանաբար in, out, ref, մոդֆիկատորները փորձարկելու համար  
+* Ստեղծել նաև SumValues(parasm … ) մեթոդը որը կգումարի մուտքում եկած ամբողջ թվերը, թվերի քանակը ֆիքսված չէ
+* ցույց տալ թե ինչպես են աշխատում այս մեթոդները, Main() մեթոդում
+***
