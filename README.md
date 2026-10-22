@@ -59,8 +59,8 @@
   * `prop` `DateTime` ReleasedYear {get; set; }
   * `prop` `Genre` FilmGenre {get; set; }
     * `enum` `Genre`: 5 constants
-  * `prop` `Long` Views {get; set; }
-  * `prop` `Long` Likes {get; set; }
+  * `prop` `long` Views {get; set; }
+  * `prop` `long` Likes {get; set; }
 
 * ### Methods `methods`
   * `double` `method` [ GetRating( ) ]() => `Sqrt( Math.Pow(Likes, 2) / Views )` 
