@@ -5,9 +5,9 @@
   * Declare a parametrized `constructor` .ctor(int n, int a, int b)
     * Setup the corresponding properties
     * Call [FillMatrix( int a, int b )]()
-  * Declare a `private` `method` FillMatrix(int a, int b), which fills the matrix with random values in the range (a <= element <= b)
-  * Declare a `public` `method` ShowMatrix() to output the [ matrix ]() data
-  * Declare a `public` `method` which returns the **odd** elements **amount**
+  * Declare a `private` void `method` FillMatrix(int a, int b), which fills the matrix with random values in the range (a <= element <= b)
+  * Declare a `public` void `method` ShowMatrix() to output the [ matrix ]() data
+  * Declare a `public` int `method` which returns the **odd** elements **amount**
 * Use the behavior in [ Main( ) ]() `method`
 
 ## ARM
