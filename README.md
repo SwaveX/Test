@@ -5,7 +5,7 @@
   * Declare a parametrized `constructor` .ctor(int n, int a, int b)
     * Setup the corresponding properties
     * Call [FillMatrix( int a, int b )]()
-  * Declare a `private` void `method` FillMatrix(int a, int b), which fills the matrix with random values in the range (a <= element <= b)
+  * Declare a `private` void `method` FillMatrix(int minValue, int maxValue), which fills the matrix with random values in the range (minValue <= element <= maxValue)
   * Declare a `public` void `method` ShowMatrix() to output the [ matrix ]() data
   * Declare a `public` int `method` which returns the **odd** elements **amount**
 * Use the behavior in [ Main( ) ]() `method`
