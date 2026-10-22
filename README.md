@@ -27,7 +27,6 @@
 
 <br><br>
 
-
 # Task 2
 ## Method overloading, default parameters
 
@@ -45,3 +44,56 @@
     * իսկ x-ը կլինի երեք տարբերակով int, double և string
     * ֆունկցիան պիտի վերադարձնի N հատ x-երի գումարը, հատուկ սենց գրեցի որ string-ի դեպքն էլ հասկանալի լինի
     * թեստավորել overloading-ի աշխատանքը Main() մեթոդում
+ ***
+
+<br><br>
+
+# Task 3
+## String, Formatting, Enum, Switch
+
+* Declare `class` [ Movie.cs ]() with following `public` `members`:
+
+* ### Properties `properties`
+  * `prop` `int` Id {get; set; }
+  * `prop` `string` Title {get; set; }
+  * `prop` `DateTime` ReleasedYear {get; set; }
+  * `prop` `Genre` FilmGenre {get; set; }
+    * `enum` `Genre`: 5 constants
+  * `prop` `Long` Views {get; set; }
+  * `prop` `Long` Likes {get; set; }
+
+* ### Methods `methods`
+  * `double` `method` [ GetRating( ) ]() => `Sqrt( Math.Pow(Likes, 2) / Views )` 
+  * override `string` [ ToString( ) ]() when called:
+    * Id { FontSize: 4, [ PadRight( ) ]()}
+    * Title { FontSize: 15, [ Padleft( ) ]()}
+    * ReleasedYear inside parenthesis { FontSize: 8, [ Padleft( ) ]()}
+    * Genre { FontSize: 12, [ Padleft( ) ]()}
+    * [ GetRating( ) ]() - precision: **3 decimal places** { FontSize: 8, [ Padleft( ) ]()}
+
+ 
+* Test the behavior in [ Main( ) ]() `method`
+   * Input the data via [ Console.ReadLine() ](), [ Split() ]()
+   * Input the amount of Movies
+     * For each Movie input corresponding data   
+     * Input `Genre` via integer numbers
+
+## ARM
+
+* ստեղծել Movie.cs կլասսը որը կպարունակի [ֆիլմի համարը, ֆիլմի անունը, տարեթիվը, ֆիլմի ժանրը, դիտումների քանակը, լայքերի քանակը]
+* ֆիլմի ժանրի համար ստեղծել enum 5 տարբերակ պարունակող, ըստ ձեր  հայեցողությամբ
+* Մուրտքագրումը կատարել Console-ից ReadLine() մեթոդով, ժանրը գրել որպես 1 ից 5 թիվ, որից հետո ինֆորմացիան տարանջատել (split) և տեղավորել կլասսի դաշտերում.
+* ստեղծել նաև մեթոդ որը կհաշվի ֆիլմի ռեյտինգը հետևյալ բանաձևով SQRT(Likes ^ 2 / Views) կլինի double տիպի;
+* Movie.cs կլասսի համար override անել ToString() մեթոդը որը ցույց կտա կլասսի պարունակությունը հետևյալ կերպ
+    - ֆիլմի համարը, {4 տառաչափ, կցել աջ}
+    - ֆիլմի անունը, {15 տառաչափ, կցել ձախ}
+    - տարեթիվը,    {8 տառաչափ, կցել ձախ և փակագծերի մեջ օր․"(2011)"}
+    - ֆիլմի ժանրը,  {12 տառաչափ, տեքստային, կցել ձախ}
+    - ռեյտինգը {8 տառաչափ, ստրոակետրից հետո 1000-րդական ճշտությամբ, անպայման ցույց տա նաև եթե զրոներ են}
+* ցույց տալ կլասսի ֆունկիոնալությունը Main() մեթոդում, ծրագիրը սկզբում կընդհունի քանակը օրինակ 7 և հետո ցիկլով կնդունի 7 հատ ֆիլմի տվյալներ, այնուհետև ցիկլով ցույց կտա ֆորմատավորված տեսքով։  
+* որպեսզի ավելորդ չբարդացնեք բոլոր մեմբերները և մեթոդները ստեղծել public
+
+
+ ***
+ 
+<br><br>
