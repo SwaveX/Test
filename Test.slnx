@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Class_Rnd_Matrix_Get_Set_AccessMods_ctor/Class_Rnd_Matrix_Get_Set_AccessMods_ctor.csproj" />
+  <Project Path="In_out_ref_params_default_values/In_out_ref_params_default_values.csproj" />
   <Project Path="MethodOverloading_DefaultParameters/MethodOverloading_DefaultParameters.csproj" />
   <Project Path="String_Formatting_Enum_Switch/String_Formatting_Enum_Switch.csproj" />
 </Solution>
