@@ -64,12 +64,19 @@
 
 * ### Methods `methods`
   * `double` `method` [ GetRating( ) ]() => `Sqrt( Math.Pow(Likes, 2) / Views )` 
-  * override `string` [ ToString( ) ]() when called:
-    * Id { FontSize: 4, [ PadRight( ) ]()}
-    * Title { FontSize: 15, [ Padleft( ) ]()}
-    * ReleasedYear inside parenthesis { FontSize: 8, [ Padleft( ) ]()}
-    * Genre { FontSize: 12, [ Padleft( ) ]()}
-    * [ GetRating( ) ]() - precision: **3 decimal places** { FontSize: 8, [ Padleft( ) ]()}
+  * override `string` [ ToString( ) ]() when called the output should be:
+    * Id
+      * [ PadRight(4) ]()}
+    * Title
+      * [ Padleft(15) ]()
+    * ReleasedYear
+      * [ Padleft(8) ]()
+      * inside parenthesis: ex. "(2027)"
+    * Genre
+      * [ Padleft(12) ]()
+    * [ GetRating( ) ]()
+      * [ Padleft(8) ]()
+      * precision: **3 decimal places** 
 
  
 * Test the behavior in [ Main( ) ]() `method`
