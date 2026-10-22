@@ -31,9 +31,9 @@
 # Task 2
 ## Method overloading, default parameters
 
-* Declare `private` `static` overloaded `method` [ ToMultiplicate(int n = 2, < > x ) ]() that returns _n times_ `x` regardless of type for `x`
+* Declare `private` `static` overloaded `method` [ ToMultiplicate(< > x, int n = 2) ]() that returns _n times_ `x` regardless of type for `x`
+  * Formal Parameter **x**: Types are `int`, `double`, `string`
   * Formal Parameter **n**: Default value is 2
-  * Formal Parameter **x**: Types are `int`, `double`, `string`,
 * Test the behavior in [ Main( ) ]() `method`
 
 
